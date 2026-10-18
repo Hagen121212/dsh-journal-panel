@@ -1,0 +1,35 @@
+{
+  "name": "dsh-journal-panel",
+  "version": "0.1.0",
+  "description": "思维年轮：DSH 内的轻量复盘面板，读取本地 journal API。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "journal",
+    "plugin",
+    "panel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hagen121212/dsh-journal-panel.git"
+  },
+  "homepage": "https://github.com/Hagen121212/dsh-journal",
+  "bugs": {
+    "url": "https://github.com/Hagen121212/dsh-journal-panel/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": "Hagen121212"
+}
